@@ -1,0 +1,3 @@
+22:54:27.026 [main] INFO  framework.FrameworkBuild.ValidateTitle - Driver is Initialising
+22:54:32.379 [main] INFO  framework.FrameworkBuild.ValidateTitle - Navigated to Home Page
+22:54:32.472 [main] INFO  framework.FrameworkBuild.ValidateTitle - Navigation Bar is Displayed

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="framework.FrameworkBuild.Listners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Validating Login Page(failed)">
+    <classes>
+      <class name="framework.FrameworkBuild.HomePage">
+        <methods>
+          <include name="TearDown"/>
+          <include name="BaseIntialization"/>
+          <include name="IniialiseDriver"/>
+        </methods>
+      </class> <!-- framework.FrameworkBuild.HomePage -->
+    </classes>
+  </test> <!-- Validating Login Page(failed) -->
+  <test thread-count="5" verbose="0" name="Validating Navigation Bar(failed)">
+    <classes>
+      <class name="framework.FrameworkBuild.ValidateTitle">
+        <methods>
+          <include name="basNavigationBar"/>
+          <include name="TearDown"/>
+          <include name="IniialiseDriver"/>
+        </methods>
+      </class> <!-- framework.FrameworkBuild.ValidateTitle -->
+    </classes>
+  </test> <!-- Validating Navigation Bar(failed) -->
+</suite> <!-- Failed suite [Suite] -->

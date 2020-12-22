@@ -1,0 +1,73 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 5, Time elapsed: 14.485 s <<< FAILURE! - in TestSuite
+framework.FrameworkBuild.HomePage.IniialiseDriver  Time elapsed: 7.838 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Users\DELL Inspiron 5570\AppData\Local\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DELLINSPIRON15', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x003AD383+3134339]
+	Ordinal0 [0x0029A171+2007409]
+	Ordinal0 [0x0013AEE8+569064]
+	Ordinal0 [0x000BD721+55073]
+	Ordinal0 [0x000E0DFC+200188]
+	Ordinal0 [0x000E0C1D+199709]
+	Ordinal0 [0x000DEB0B+191243]
+	Ordinal0 [0x000C2E77+77431]
+	Ordinal0 [0x000C3E3E+81470]
+	Ordinal0 [0x000C3DC9+81353]
+	Ordinal0 [0x002B0CD9+2100441]
+	GetHandleVerifier [0x0051B75A+1396954]
+	GetHandleVerifier [0x0051B3D9+1396057]
+	GetHandleVerifier [0x00527126+1444518]
+	GetHandleVerifier [0x0051BCE8+1398376]
+	Ordinal0 [0x002A7F51+2064209]
+	Ordinal0 [0x002B22EB+2106091]
+	Ordinal0 [0x002B2411+2106385]
+	Ordinal0 [0x002C49C4+2181572]
+	BaseThreadInitThunk [0x77306359+25]
+	RtlGetAppContainerNamedObjectPath [0x77648944+228]
+	RtlGetAppContainerNamedObjectPath [0x77648914+180]
+	(No symbol) [0x00000000]
+
+	at framework.FrameworkBuild.HomePage.IniialiseDriver(HomePage.java:24)
+
+framework.FrameworkBuild.ValidateTitle.IniialiseDriver  Time elapsed: 4.098 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 85
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DELLINSPIRON15', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x003AD383+3134339]
+	Ordinal0 [0x0029A171+2007409]
+	Ordinal0 [0x0013AEE8+569064]
+	Ordinal0 [0x000C139F+70559]
+	Ordinal0 [0x000BCC63+52323]
+	Ordinal0 [0x000E0DFC+200188]
+	Ordinal0 [0x000E0C1D+199709]
+	Ordinal0 [0x000DEB0B+191243]
+	Ordinal0 [0x000C2E77+77431]
+	Ordinal0 [0x000C3E3E+81470]
+	Ordinal0 [0x000C3DC9+81353]
+	Ordinal0 [0x002B0CD9+2100441]
+	GetHandleVerifier [0x0051B75A+1396954]
+	GetHandleVerifier [0x0051B3D9+1396057]
+	GetHandleVerifier [0x00527126+1444518]
+	GetHandleVerifier [0x0051BCE8+1398376]
+	Ordinal0 [0x002A7F51+2064209]
+	Ordinal0 [0x002B22EB+2106091]
+	Ordinal0 [0x002B2411+2106385]
+	Ordinal0 [0x002C49C4+2181572]
+	BaseThreadInitThunk [0x77306359+25]
+	RtlGetAppContainerNamedObjectPath [0x77648944+228]
+	RtlGetAppContainerNamedObjectPath [0x77648914+180]
+	(No symbol) [0x00000000]
+
+	at framework.FrameworkBuild.ValidateTitle.IniialiseDriver(ValidateTitle.java:23)
+
